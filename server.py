@@ -7,7 +7,7 @@ c.listen(1)
 print("[+]Esperando por conexiones..")
 
 con,ad = c.accept()
-mydata = 16
+
 
 def send_data(data):
 	data_j = json.dumps(data)
